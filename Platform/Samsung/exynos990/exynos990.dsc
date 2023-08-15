@@ -32,9 +32,9 @@
   gArmTokenSpaceGuid.PcdArmArchTimerIntrNum|20
   gArmTokenSpaceGuid.PcdArmArchTimerVirtIntrNum|27
   gArmTokenSpaceGuid.PcdArmArchTimerHypIntrNum|26
-  gArmTokenSpaceGuid.PcdGicDistributorBase|0x12301000
+  gArmTokenSpaceGuid.PcdGicDistributorBase|0x10100000
 
-  gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x12302000
+  gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x10102000
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiDefaultOemRevision|0x00000850
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x80C00000      # UEFI Stack

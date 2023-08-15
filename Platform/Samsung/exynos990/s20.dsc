@@ -20,7 +20,7 @@
   gSamsungTokenSpaceGuid.PcdMipiFrameBufferHeight|3200
 
   # Simple Init
-  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|563
+  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|480
 
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Samsung"
   gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Galaxy S20"
