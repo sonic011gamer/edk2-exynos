@@ -23,5 +23,5 @@
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|350
 
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Samsung"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Galaxy A10 "
-  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"a10"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Galaxy A10"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"A105FN"

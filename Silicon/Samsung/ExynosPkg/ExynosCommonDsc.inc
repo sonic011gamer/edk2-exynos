@@ -140,6 +140,17 @@
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdMaxVariableSize|0x2000
 
+# Produce the highest video mode in Shell and UiApp
+[PcdsDynamicDefault.common]
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0 # /8 = column
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0 #/19 = row
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
+  
 !include MdePkg/MdeLibs.dsc.inc
 !include SimpleInit.inc
 

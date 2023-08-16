@@ -22,7 +22,7 @@
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
-  Silicon/Samsung/ExynosPkg/SamsungPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
 
 [LibraryClasses]
   BaseLib

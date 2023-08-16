@@ -8,7 +8,7 @@
 
 [Packages]
   MdePkg/MdePkg.dec
-  Silicon/Qualcomm/QcomPkg/QcomPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
   Platform/RenegadePkg/RenegadePkg.dec
 
 [LibraryClasses]

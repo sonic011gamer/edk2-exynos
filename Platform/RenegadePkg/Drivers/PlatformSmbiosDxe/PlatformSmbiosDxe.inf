@@ -29,7 +29,7 @@
   ArmPkg/ArmPkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
   Platform/RenegadePkg/RenegadePkg.dec
-  Silicon/Qualcomm/QcomPkg/QcomPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
   SimpleInit.dec
 
 [LibraryClasses]

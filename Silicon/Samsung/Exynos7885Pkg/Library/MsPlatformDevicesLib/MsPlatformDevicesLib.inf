@@ -27,7 +27,7 @@
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
   Platform/RenegadePkg/RenegadePkg.dec
-  Silicon/Samsung/ExynosPkg/SamsungPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
   Silicon/Samsung/Exynos7885Pkg/exynos7885.dec
 
 [LibraryClasses]

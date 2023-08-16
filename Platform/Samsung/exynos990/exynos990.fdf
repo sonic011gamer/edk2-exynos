@@ -246,6 +246,6 @@ READ_LOCK_STATUS   = TRUE
     }
   }
 
-!include Silicon/Samsung/ExynosPkg/SamsungCommonFdf.inc
+!include Silicon/Samsung/ExynosPkg/ExynosCommonFdf.inc
 
 
