@@ -23,7 +23,7 @@
   EmbeddedPkg/EmbeddedPkg.dec
   ArmPkg/ArmPkg.dec
   ArmPlatformPkg/ArmPlatformPkg.dec
-  Silicon/Samsung/ExynosPkg/SamsungPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
   SimpleInit.dec
 
 [LibraryClasses]

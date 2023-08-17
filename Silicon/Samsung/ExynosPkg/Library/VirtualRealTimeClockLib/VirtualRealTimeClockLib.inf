@@ -30,7 +30,7 @@
   ArmPkg/ArmPkg.dec
   MdePkg/MdePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
-  Silicon/Samsung/ExynosPkg/SamsungPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
 
 [LibraryClasses]
   IoLib

@@ -19,7 +19,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   ArmPkg/ArmPkg.dec
-  Silicon/Samsung/ExynosPkg/SamsungPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
 
 [LibraryClasses]
   ArmLib

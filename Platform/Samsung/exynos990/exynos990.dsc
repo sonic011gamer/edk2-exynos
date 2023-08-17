@@ -20,7 +20,7 @@
   SOC_PLATFORM            = exynos990
   USE_PHYSICAL_TIMER      = FALSE
 
-!include Silicon/Samsung/ExynosPkg/SamsungCommonDsc.inc
+!include Silicon/Samsung/ExynosPkg/ExynosCommonDsc.inc
 
 [PcdsFixedAtBuild.common]
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000         # Starting address
