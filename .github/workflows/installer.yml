@@ -22,16 +22,10 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          # sm8150
-          - mh2lm
-          - nabu
-          - cepheus
-          - vayu-huaxing
-          - vayu-tianma
-          # sm8550
-          - fuxi
-          # sm7325
-          - lisa
+          # Exynos 7885
+          - a10
+          # Exynos 990
+          - s20
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
