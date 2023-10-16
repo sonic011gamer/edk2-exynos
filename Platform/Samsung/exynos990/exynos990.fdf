@@ -132,6 +132,9 @@ READ_LOCK_STATUS   = TRUE
 
   INF Silicon/Samsung/ExynosPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 
+  INF Silicon/Samsung/ExynosPkg/Drivers/KeypadDxe/KeypadDxe.inf
+  INF Silicon/Samsung/ExynosPkg/Drivers/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
+
   #
   # USB Host Support
   #
