@@ -5,7 +5,7 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
 /*                                                    EFI_RESOURCE_ EFI_RESOURCE_ATTRIBUTE_ EFI_MEMORY_TYPE ARM_REGION_ATTRIBUTE_
      MemLabel(32 Char.),  MemBase,    MemSize, BuildHob, ResourceType, ResourceAttribute, MemoryType, CacheAttributes
 --------------------- Register ---------------------*/
-    {"Periphs",           0x00000000, 0x15000000,  AddMem, MEM_RES, UNCACHEABLE,  RtCode,   NS_DEVICE},
+    {"Periphs",           0x00000000, 0x80000000,  AddMem, MEM_RES, UNCACHEABLE,  RtCode,   NS_DEVICE},
 
 //--------------------- DDR --------------------- */
 

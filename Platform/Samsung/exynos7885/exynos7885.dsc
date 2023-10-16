@@ -56,6 +56,7 @@
   gSimpleInitTokenSpaceGuid.PcdLoggerdUseConsole|FALSE
 
 [LibraryClasses.common]
+  KeypadDeviceImplLib|Silicon/Samsung/Exynos7885Pkg/Library/KeypadDeviceImplLib/KeypadDeviceImplLib.inf
   PlatformMemoryMapLib|Silicon/Samsung/Exynos7885Pkg/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.inf
   PlatformPeiLib|Silicon/Samsung/Exynos7885Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
   PlatformPrePiLib|Silicon/Samsung/Exynos7885Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
