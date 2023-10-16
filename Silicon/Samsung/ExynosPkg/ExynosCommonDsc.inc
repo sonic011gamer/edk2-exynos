@@ -493,6 +493,10 @@
   # Simple framebuffer
   Silicon/Samsung/ExynosPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 
+  # Keypad
+  Silicon/Samsung/ExynosPkg/Drivers/KeypadDxe/KeypadDxe.inf
+  Silicon/Samsung/ExynosPkg/Drivers/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
+
   # ACPI
   # We use pre-built ACPI tables, so only core components are loaded
   MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
