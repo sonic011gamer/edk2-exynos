@@ -55,6 +55,10 @@ EFI_STATUS
 EFIAPI
 LibGetTime(OUT EFI_TIME *Time, OUT EFI_TIME_CAPABILITIES *Capabilities)
 {
+#if BROKEN_CNTFRQ_EL0 == 1
+  // the log spam is horrible.
+  // DEBUG ((EFI_D_WARN, "CNTFRQ_EL0 is NULL!\n"));
+#else
   UINT32 Freq = ArmGenericTimerGetTimerFreq();
 
   if (Time == NULL) {
@@ -110,6 +114,7 @@ LibGetTime(OUT EFI_TIME *Time, OUT EFI_TIME_CAPABILITIES *Capabilities)
   Time->Nanosecond = 0;
   Time->TimeZone   = 0;
   Time->Daylight   = 0;
+#endif
 
   return EFI_SUCCESS;
 }

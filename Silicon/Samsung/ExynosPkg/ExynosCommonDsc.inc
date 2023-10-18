@@ -166,7 +166,13 @@
   ArmGicLib|ArmPkg/Drivers/ArmGic/ArmGicLib.inf
   ArmHvcLib|ArmPkg/Library/ArmHvcLib/ArmHvcLib.inf
   ArmSmcLib|ArmPkg/Library/ArmSmcLib/ArmSmcLib.inf
+
+!if $(BROKEN_CNTFRQ_EL0) == 1
+  TimerLib|Silicon/Samsung/ExynosPkg/Library/ArmArchTimerLib/ArmArchTimerLib.inf
+!else
   TimerLib|ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib.inf
+!endif
+
   BaseLib|MdePkg/Library/BaseLib/BaseLib.inf
   BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
   BaseSynchronizationLib|MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf
@@ -244,11 +250,17 @@
   VariableFlashInfoLib|MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib.inf
 
   # System Reset
+!if !$(IMPLEMENTS_CUSTOM_RESETLIB) == 1
   HwResetSystemLib|ArmPkg/Library/ArmSmcPsciResetSystemLib/ArmSmcPsciResetSystemLib.inf
+!endif
 
   RealTimeClockLib|EmbeddedPkg/Library/VirtualRealTimeClockLib/VirtualRealTimeClockLib.inf
   ResetUtilityLib|MdeModulePkg/Library/ResetUtilityLib/ResetUtilityLib.inf
+
+!if !$(IMPLEMENTS_CUSTOM_RESETLIB) == 1
   ResetSystemLib|ArmPkg/Library/ArmSmcPsciResetSystemLib/ArmSmcPsciResetSystemLib.inf
+!endif
+
   DtPlatformDtbLoaderLib|EmbeddedPkg/Library/DxeDtPlatformDtbLoaderLibDefault/DxeDtPlatformDtbLoaderLibDefault.inf
 
   MemoryInitPeiLib|Silicon/Samsung/ExynosPkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
