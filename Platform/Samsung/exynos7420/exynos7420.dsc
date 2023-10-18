@@ -62,8 +62,11 @@
   gSimpleInitTokenSpaceGuid.PcdLoggerdUseConsole|FALSE
 
 [LibraryClasses.common]
+  KeypadDeviceImplLib|Silicon/Samsung/Exynos7420Pkg/Library/KeypadDeviceImplLib/KeypadDeviceImplLib.inf
   PlatformMemoryMapLib|Silicon/Samsung/Exynos7420Pkg/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.inf
   PlatformPeiLib|Silicon/Samsung/Exynos7420Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
   PlatformPrePiLib|Silicon/Samsung/Exynos7420Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
+  HwResetSystemLib|Silicon/Samsung/Exynos7420Pkg/Library/ResetSystemLib/ResetSystemLib.inf
+  ResetSystemLib|Silicon/Samsung/Exynos7420Pkg/Library/ResetSystemLib/ResetSystemLib.inf
   MsPlatformDevicesLib|Silicon/Samsung/Exynos7420Pkg/Library/MsPlatformDevicesLib/MsPlatformDevicesLib.inf
   SOCSmbiosInfoLib|Silicon/Samsung/Exynos7420Pkg/Library/SOCSmbiosInfoLib/SOCSmbiosInfoLib.inf

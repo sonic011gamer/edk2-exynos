@@ -10,6 +10,7 @@
   FLASH_DEFINITION               = Platform/Samsung/exynos7420/exynos7420.fdf
   DEVICE_DXE_FV_COMPONENTS       = Platform/Samsung/exynos7420/exynos7420.fdf.inc
   BROKEN_CNTFRQ_EL0              = 1
+  IMPLEMENTS_CUSTOM_RESETLIB	 = 1
 
 !include Platform/Samsung/exynos7420/exynos7420.dsc
 

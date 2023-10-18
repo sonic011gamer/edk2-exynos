@@ -56,7 +56,8 @@ EFIAPI
 LibGetTime(OUT EFI_TIME *Time, OUT EFI_TIME_CAPABILITIES *Capabilities)
 {
 #if BROKEN_CNTFRQ_EL0 == 1
-  DEBUG ((EFI_D_WARN, "CNTFRQ_EL0 is NULL!\n"));
+  // the log spam is horrible.
+  // DEBUG ((EFI_D_WARN, "CNTFRQ_EL0 is NULL!\n"));
 #else
   UINT32 Freq = ArmGenericTimerGetTimerFreq();
 
