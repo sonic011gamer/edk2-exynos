@@ -1,0 +1,21 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = ExynosUfsLib
+  FILE_GUID                      = 15AFF33F-2C69-460B-9613-79B967F8EFA6
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = ExynosUfsLib
+
+[Sources]
+  ufs.c
+  ufs_dbg.c
+  scsi.c
+
+[Packages]
+  ArmPkg/ArmPkg.dec
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  EmbeddedPkg/EmbeddedPkg.dec
+  Silicon/Samsung/ExynosPkg/ExynosPkg.dec
+  Silicon/Samsung/Exynos9820Pkg/exynos9820.dec
+
