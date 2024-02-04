@@ -117,10 +117,10 @@ SMBIOS_TABLE_TYPE4 mProcessorInfoType4_a53 = {
     0,                  // ThreadCount2;
 };
 
-CHAR8 mCpuName[128] = "Samsung Exynos 990";
+CHAR8 mCpuName[128] = "Samsung Exynos 9820";
 
 CHAR8 *mProcessorInfoType4Strings[] = {
-    "BGA", "Samsung", "Exynos 990", NULL};
+    "BGA", "Samsung", "Exynos 9820", NULL};
 
 /***********************************************************************
         SMBIOS data definition  TYPE7  Cache Information
