@@ -172,6 +172,9 @@ READ_LOCK_STATUS   = TRUE
   INF Platform/RenegadePkg/Drivers/PlatformSmbiosDxe/PlatformSmbiosDxe.inf
   INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
 
+  #ufs
+  INF Silicon/Samsung/Exynos9820Pkg/Library/ExynosUfsLib/ExynosUfsLib.inf
+
   #
   # UEFI applications
   #

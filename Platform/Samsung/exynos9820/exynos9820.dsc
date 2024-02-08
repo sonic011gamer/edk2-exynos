@@ -60,5 +60,10 @@
   PlatformMemoryMapLib|Silicon/Samsung/Exynos9820Pkg/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.inf
   PlatformPeiLib|Silicon/Samsung/Exynos9820Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
   PlatformPrePiLib|Silicon/Samsung/Exynos9820Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
+  ExynosUfsLib|Silicon/Samsung/Exynos9820Pkg/Library/ExynosUfsLib/ExynosUfsLib.inf
+  
   MsPlatformDevicesLib|Silicon/Samsung/Exynos9820Pkg/Library/MsPlatformDevicesLib/MsPlatformDevicesLib.inf
   SOCSmbiosInfoLib|Silicon/Samsung/Exynos9820Pkg/Library/SOCSmbiosInfoLib/SOCSmbiosInfoLib.inf
+
+  [Components.common]
+  Silicon/Samsung/Exynos9820Pkg/Library/ExynosUfsLib/ExynosUfsLib.inf

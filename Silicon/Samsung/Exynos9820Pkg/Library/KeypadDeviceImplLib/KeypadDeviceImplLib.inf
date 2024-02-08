@@ -13,7 +13,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   ArmPkg/ArmPkg.dec
-  Silicon/Samsung/Exynos990Pkg/exynos990.dec
+  Silicon/Samsung/Exynos9820Pkg/exynos9820.dec
 
 [LibraryClasses]
   TimerLib

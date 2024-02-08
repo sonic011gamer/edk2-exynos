@@ -1,13 +1,15 @@
 [Defines]
   INF_VERSION                    = 0x00010005
-  BASE_NAME                      = SOCSmbiosInfoLib
-  FILE_GUID                      = 11F9F33F-2C69-460B-9613-79B967F8EFA6
+  BASE_NAME                      = ExynosUfsLib
+  FILE_GUID                      = 15AFF33F-2C69-460B-9613-79B967F8EFA6
   MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
-  LIBRARY_CLASS                  = SOCSmbiosInfoLib
+  LIBRARY_CLASS                  = ExynosUfsLib
 
 [Sources]
-  SOCSmbiosInfo.c
+  ufs.c
+  ufs_dbg.c
+  scsi.c
 
 [Packages]
   ArmPkg/ArmPkg.dec
